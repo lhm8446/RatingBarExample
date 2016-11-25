@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="5"
-        android:rating="2"
+        android:stepSize="0.5"
         android:id="@+id/ratingBar1" />
 
     <TextView
@@ -21,9 +21,25 @@
         style="?android:attr/ratingBarStyleIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="4"
-        android:rating="2.5"
+        android:numStars="5"
+        android:rating="5"
         android:id="@+id/ratingBar3" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:isIndicator="true"
+        android:id="@+id/ratingBar4" />
+
+    <RatingBar
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:id="@+id/ratingBar5" />
 
 
 
